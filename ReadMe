@@ -1,0 +1,14 @@
+**Front-end for game store
+
+The game store is a digital platform where the users can buy games. 
+
+Functionality
+•	All users can view the home page.
+•	All users can view details page of each game
+•	Guests (anonymous users) can register an account with their own email and password
+•	Guests can login by email and password.
+•	Logged-in users can logout.
+•	Logged in users can buy games.
+•	Administrators can add, edit or delete games
+•	When guest user tries to access a page that is allowed only for logged in user he should be redirected to the login page
+•	When user tries to access the administrator pages he must be redirected to the home page.
