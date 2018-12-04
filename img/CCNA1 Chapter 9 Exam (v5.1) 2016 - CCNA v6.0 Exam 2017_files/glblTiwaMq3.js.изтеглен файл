@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["\/BLCs"]); }
-
-__d("AdsAPIAdAssetFeedVideosFields",[],(function a(b,c,d,e,f,g){f.exports={ID:"id",VIDEO_ID:"video_id",THUMBNAIL_URL:"thumbnail_url",DO_NOT_CLONE_FLAG:"do_not_clone_flag",ADLABELS:"adlabels",URL_TAGS:"url_tags"};}),null);
-__d('RelayRecordProxyReader',[],(function a(b,c,d,e,f,g){'use strict';function h(m){return m.getDataID();}function i(m){return m.getType();}function j(m,n,o){return m.getValue(n,o);}function k(m,n,o){var p=m.getLinkedRecord(n,o);return p==null?p:p.getDataID();}function l(m,n,o){var p=m.getLinkedRecords(n,o);return p==null?p:p.map(function(q){return q==null?q:q.getDataID();});}f.exports={getDataID:h,getType:i,getValue:j,getLinkedRecordID:k,getLinkedRecordIDs:l};}),null);
